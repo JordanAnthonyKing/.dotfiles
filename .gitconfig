@@ -1,0 +1,5 @@
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe
+[user]
+	email = jordan@jordanking.dev
+	name = Jordan Cross
