@@ -1,0 +1,6 @@
+[credential]
+	helper = store
+[gitlab]
+	user = jordan.cross@ihsmarkit.com
+[gitlab "git.mdevlab.com/api/v4"]
+	user = jordan.cross@ihsmarkit.com
