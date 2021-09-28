@@ -120,11 +120,6 @@ export XDG_CONFIG_HOME=$HOME/.config
 export XDG_CACHE_HOME=$HOME/.cache
 export XDG_DATA_HOME=$HOME/.local/share
 export XDG_RUNTIME_DIR=$HOME/.temp
-export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
-export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
-export AWS_SHARED_CREDENTIALS_FILE="$XDG_CONFIG_HOME"/aws/credentials
-export AWS_CONFIG_FILE="$XDG_CONFIG_HOME"/aws/config
-export AZURE_CONFIG_DIR=$XDG_DATA_HOME/azure
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
 [[ $TERM != "screen" ]] && exec tmux new -A -c ~

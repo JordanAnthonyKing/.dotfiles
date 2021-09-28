@@ -26,6 +26,7 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export PS1="\[\033[37m\][\$(date +%H:%M)] \[\033[32m\]\w\[\033[33m\] $ \[\033[00m\]"
-export VISUAL=vim;
-export EDITOR=vim;
+export PS1="\[\033[32m\]\w\[\033[33m\] $ \[\033[00m\]"
+export VISUAL=vim
+export EDITOR=vim
+export BROWSER=wslview
